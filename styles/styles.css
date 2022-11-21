@@ -1,0 +1,111 @@
+/* ELEMENTS */
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration:none;
+    color:#E5e7eb;
+}
+
+a:hover{
+    color:aquamarine;
+}
+
+/* HEADINGS AND SUBTEXTS*/
+.big-heading{
+    font-size:48px;
+    font-weight:900;
+}
+
+.small-heading{
+    font-size:18px;
+    font-weight:700;
+}
+
+.subtext{
+    font-size:18px;
+    color:#E5e7eb;
+}
+
+/* BUTTONS */
+.sign-up-btn{
+    background-color: #3882f6;
+    color:#E5e7eb;
+}
+
+/* TITLE */
+#title{
+    background-color: #1f2937;
+    color:#F9FAF8;
+    padding:1% 15% 7%;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    font-size: 24px;
+    font-weight:900;
+}
+
+.header-links{
+    font-size: 18px;
+    list-style-type: none;
+    display:flex;
+    gap:20px;
+}
+
+.hero{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.title-img{
+    width:400px;
+}
+
+/* PHOTOS */
+#photos{
+    color:#1f2937;
+    text-align:center;
+}
+
+#photos .big-heading{
+    font-size: 36px;
+}
+
+.square-photo{
+    width:200px;
+}
+
+/* TESTIMONIALS */
+#testimonials{
+    background-color: #E5e7eb;
+}
+
+.testimonial-text{
+    font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
+}
+
+.testimonial-author{
+    text-align: right;
+}
+
+/* CTA */
+.cta-container{
+    background-color: #3882f6;
+    text-align: center;
+}
+
+#cta .small-heading{
+    color:#E5e7eb;
+}
